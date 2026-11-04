@@ -1,0 +1,3246 @@
+{
+  "version": "2026-11-04",
+  "sourceReport": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm",
+  "sourceCourses": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1",
+  "courseCohort": "2026",
+  "areas": [
+    {
+      "id": "AI",
+      "name": "人工智能",
+      "english": "Artificial Intelligence",
+      "expectedUnits": 12,
+      "hours": 12,
+      "kaHours": 18,
+      "group": "数据与智能",
+      "description": "研究如何让机器搜索、推理和学习，并理解智能技术的社会影响。",
+      "units": [
+        {
+          "id": "AI-Introduction",
+          "name": "Fundamental Issues",
+          "page": 67,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703743",
+          "coreHours": "2",
+          "kaHours": "1",
+          "hourTableLabel": "Fundamental Issues",
+          "isCore": true,
+          "zh": "基本问题",
+          "courseIds": [
+            "CS3317"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：人工智能课程名称与基础智能问题、知识表示主题相近。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AI-Search",
+          "name": "Search",
+          "page": 68,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703744",
+          "coreHours": "2 + 3 (AL)",
+          "kaHours": "6",
+          "hourTableLabel": "Search",
+          "isCore": true,
+          "zh": "搜索",
+          "courseIds": [
+            "CS3317",
+            "CS2308"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：人工智能与算法课程可作为搜索策略的入门线索。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AI-KRR",
+          "name": "Fundamental Knowledge Representation and Reasoning",
+          "page": 70,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703745",
+          "coreHours": "1 + 1 (MSF)",
+          "kaHours": "2",
+          "hourTableLabel": "Fundamental Knowledge Representation and Reasoning",
+          "isCore": true,
+          "zh": "知识表示与推理基础",
+          "courseIds": [
+            "CS3317"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：人工智能课程名称与基础智能问题、知识表示主题相近。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AI-ML",
+          "name": "Machine Learning",
+          "page": 71,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703746",
+          "coreHours": "4",
+          "kaHours": "6",
+          "hourTableLabel": "Machine Learning",
+          "isCore": true,
+          "zh": "机器学习",
+          "courseIds": [
+            "CS3308"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：机器学习课程与该单元主题直接同名。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AI-SEP",
+          "name": "Applications and Societal Impact",
+          "page": 75,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703747",
+          "coreHours": "3",
+          "kaHours": "3",
+          "hourTableLabel": "Applications and Societal Impact",
+          "isCore": true,
+          "zh": "应用与社会影响",
+          "courseIds": [
+            "CS3309"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机伦理学提供社会影响讨论的学习入口，AI专属内容仍需核查。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AI-LRR",
+          "name": "Logical Representation and Reasoning",
+          "page": 76,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703748",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Logical Representation and Reasoning",
+          "isCore": false,
+          "zh": "逻辑表示与推理",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“逻辑表示与推理”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "AI-Probability",
+          "name": "Probabilistic Representation and Reasoning",
+          "page": 77,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703749",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Probabilistic Representation and Reasoning",
+          "isCore": false,
+          "zh": "概率表示与推理",
+          "courseIds": [
+            "CS3317",
+            "MATH1207"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：概率统计提供数学先修，人工智能提供概率推理的后续学习入口。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AI-Planning",
+          "name": "Planning",
+          "page": 78,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703750",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Planning",
+          "isCore": false,
+          "zh": "规划",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“规划”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "AI-Agents",
+          "name": "Agents and Cognitive Systems",
+          "page": 79,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703751",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Agents and Cognitive Systems",
+          "isCore": false,
+          "zh": "智能体与认知系统",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“智能体与认知系统”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "AI-NLP",
+          "name": "Natural Language Processing",
+          "page": 79,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703752",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Natural Language Processing",
+          "isCore": false,
+          "zh": "自然语言处理",
+          "courseIds": [
+            "CS4314"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：自然语言处理课程与该单元主题直接同名。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AI-Robotics",
+          "name": "Robotics",
+          "page": 80,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703753",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Robotics",
+          "isCore": false,
+          "zh": "机器人",
+          "courseIds": [
+            "CS3349"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：无人系统实践是机器人相关实践线索，不能据此认定覆盖机器人单元。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AI-Vision",
+          "name": "Perception and Computer Vision",
+          "page": 82,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703754",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Perception and Computer Vision",
+          "isCore": false,
+          "zh": "感知与计算机视觉",
+          "courseIds": [
+            "CS3340"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机视觉课程与视觉感知主题直接相关。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        }
+      ],
+      "courseIds": [
+        "CS3317",
+        "CS3308",
+        "CS3316",
+        "CS4314",
+        "CS3340",
+        "CS4313"
+      ]
+    },
+    {
+      "id": "AL",
+      "name": "算法基础",
+      "english": "Algorithmic Foundations",
+      "expectedUnits": 5,
+      "hours": 32,
+      "kaHours": 32,
+      "group": "基础与理论",
+      "description": "以数据结构、算法策略与复杂性分析，回答问题能否被高效求解。",
+      "units": [
+        {
+          "id": "AL-Foundational",
+          "name": "Foundational Data Structures and Algorithms",
+          "page": 88,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703764",
+          "coreHours": "11",
+          "kaHours": "6",
+          "hourTableLabel": "Foundational Data Structures and Algorithms",
+          "isCore": true,
+          "zh": "基础数据结构与算法",
+          "courseIds": [
+            "CS0501"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：数据结构课程与基础数据结构及算法主题直接相关。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AL-Strategies",
+          "name": "Algorithmic Strategies",
+          "page": 90,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703765",
+          "coreHours": "6",
+          "kaHours": "",
+          "hourTableLabel": "Algorithmic Strategies",
+          "isCore": true,
+          "zh": "算法策略",
+          "courseIds": [
+            "CS2308",
+            "CS3341"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：算法与复杂性和高等算法可作为算法策略的学习入口。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AL-Complexity",
+          "name": "Complexity",
+          "page": 91,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703766",
+          "coreHours": "6",
+          "kaHours": "3",
+          "hourTableLabel": "Complexity Analysis",
+          "isCore": true,
+          "zh": "复杂性",
+          "courseIds": [
+            "CS2308",
+            "CS4308"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：算法与复杂性、计算复杂性均在课程名称中明确涉及复杂性。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AL-Models",
+          "name": "Computational Models and Formal Languages",
+          "page": 93,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703767",
+          "coreHours": "9",
+          "kaHours": "23",
+          "hourTableLabel": "Computational Models and Formal Languages",
+          "isCore": true,
+          "zh": "计算模型与形式语言",
+          "courseIds": [
+            "CS3313"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算理论课程与计算模型、形式语言主题相近。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AL-SEP",
+          "name": "Society, Ethics, and the Profession",
+          "page": 95,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703768",
+          "coreHours": "Included in SEP hours",
+          "kaHours": "",
+          "hourTableLabel": "Society, Ethics, and the Profession",
+          "isCore": false,
+          "zh": "社会、伦理与职业",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“社会、伦理与职业”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        }
+      ],
+      "courseIds": [
+        "CS0501",
+        "CS2308",
+        "CS3313",
+        "CS3341",
+        "CS4308"
+      ]
+    },
+    {
+      "id": "AR",
+      "name": "体系结构与组成",
+      "english": "Architecture and Organization",
+      "expectedUnits": 11,
+      "hours": 9,
+      "kaHours": 16,
+      "group": "系统与计算",
+      "description": "理解数据在硬件中的表示，以及处理器、存储与输入输出的组织。",
+      "units": [
+        {
+          "id": "AR-Logic",
+          "name": "Digital Logic and Digital Systems",
+          "page": 102,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703778",
+          "coreHours": "",
+          "kaHours": "2 + 1 (SF)",
+          "hourTableLabel": "Digital Logic and Digital Systems",
+          "isCore": false,
+          "zh": "数字逻辑与数字系统",
+          "courseIds": [
+            "CS2307"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机组成课程是硬件组织相关基础主题的学习入口；具体KU覆盖未核验。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AR-Representation",
+          "name": "Machine-Level Data Representation",
+          "page": 103,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703779",
+          "coreHours": "1",
+          "kaHours": "",
+          "hourTableLabel": "Machine-Level Data Representation",
+          "isCore": true,
+          "zh": "机器级数据表示",
+          "courseIds": [
+            "CS2307"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机组成课程是硬件组织相关基础主题的学习入口；具体KU覆盖未核验。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AR-Assembly",
+          "name": "Assembly Level Machine Organization",
+          "page": 103,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703780",
+          "coreHours": "1",
+          "kaHours": "1 + 1 (PDC)",
+          "hourTableLabel": "Assembly Level Machine Organization",
+          "isCore": true,
+          "zh": "汇编级机器组织",
+          "courseIds": [
+            "CS2307"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机组成课程是硬件组织相关基础主题的学习入口；具体KU覆盖未核验。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AR-Memory",
+          "name": "Memory Hierarchy",
+          "page": 104,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703781",
+          "coreHours": "4+2 (OS)",
+          "kaHours": "",
+          "hourTableLabel": "Memory Hierarchy",
+          "isCore": true,
+          "zh": "存储层次结构",
+          "courseIds": [
+            "CS2307",
+            "CS2305"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机组成与系统结构课程是存储层次、功能组织的相关学习入口。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AR-IO",
+          "name": "Interfacing and Communication",
+          "page": 105,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703782",
+          "coreHours": "1",
+          "kaHours": "",
+          "hourTableLabel": "Interfacing and Communication",
+          "isCore": true,
+          "zh": "接口与通信",
+          "courseIds": [
+            "CS2307"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机组成课程是硬件组织相关基础主题的学习入口；具体KU覆盖未核验。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AR-Organization",
+          "name": "Functional Organization",
+          "page": 106,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703783",
+          "coreHours": "",
+          "kaHours": "2",
+          "hourTableLabel": "Functional Organization",
+          "isCore": false,
+          "zh": "功能组织",
+          "courseIds": [
+            "CS2307",
+            "CS2305"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机组成与系统结构课程是存储层次、功能组织的相关学习入口。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AR-Performance-Energy",
+          "name": "Performance and Energy Efficiency",
+          "page": 106,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703784",
+          "coreHours": "",
+          "kaHours": "3",
+          "hourTableLabel": "Performance and Energy Efficiency",
+          "isCore": false,
+          "zh": "性能与能效",
+          "courseIds": [
+            "CS2305"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：系统结构课程提供性能相关学习入口，能效部分尚未核验。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AR-Heterogeneity",
+          "name": "Heterogeneous Architectures",
+          "page": 107,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703785",
+          "coreHours": "",
+          "kaHours": "2",
+          "hourTableLabel": "Heterogeneous Architectures",
+          "isCore": false,
+          "zh": "异构架构",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“异构架构”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "AR-Security",
+          "name": "Secure Processor Architectures",
+          "page": 107,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703786",
+          "coreHours": "",
+          "kaHours": "2",
+          "hourTableLabel": "Secure Processor Architectures",
+          "isCore": false,
+          "zh": "安全处理器架构",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“安全处理器架构”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "AR-Quantum",
+          "name": "Quantum Architectures",
+          "page": 108,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703787",
+          "coreHours": "",
+          "kaHours": "2",
+          "hourTableLabel": "Quantum Architectures",
+          "isCore": false,
+          "zh": "量子架构",
+          "courseIds": [
+            "CS3346"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：量子计算课程与量子架构主题相关，架构细节覆盖仍需查大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "AR-SEP",
+          "name": "Sustainability Issues",
+          "page": 109,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703788",
+          "coreHours": "Included in SEP hours",
+          "kaHours": "",
+          "hourTableLabel": "Sustainability Issues",
+          "isCore": false,
+          "zh": "可持续性议题",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“可持续性议题”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        }
+      ],
+      "courseIds": [
+        "CS2307",
+        "CS2305",
+        "CS2306",
+        "CS3346"
+      ]
+    },
+    {
+      "id": "DM",
+      "name": "数据管理",
+      "english": "Data Management",
+      "expectedUnits": 13,
+      "hours": 10,
+      "kaHours": 26,
+      "group": "数据与智能",
+      "description": "组织、存储、查询与保护数据，理解数据生命周期。",
+      "units": [
+        {
+          "id": "DM-Data",
+          "name": "The Role of Data and the Data Life Cycle",
+          "page": 115,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703798",
+          "coreHours": "2",
+          "kaHours": "",
+          "hourTableLabel": "The Role of Data",
+          "isCore": true,
+          "zh": "数据作用与生命周期",
+          "courseIds": [
+            "CS3321",
+            "CS3322"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：数据库技术与数据库原理提供数据库基本机制的学习入口；细分KU覆盖未核验。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "DM-Core",
+          "name": "Core Database System Concepts",
+          "page": 115,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703799",
+          "coreHours": "2",
+          "kaHours": "1",
+          "hourTableLabel": "Core Database Systems Concepts",
+          "isCore": true,
+          "zh": "数据库系统核心概念",
+          "courseIds": [
+            "CS3321",
+            "CS3322"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：数据库技术与数据库原理提供数据库基本机制的学习入口；细分KU覆盖未核验。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "DM-Modeling",
+          "name": "Data Modeling",
+          "page": 116,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703800",
+          "coreHours": "2",
+          "kaHours": "3",
+          "hourTableLabel": "Data Modeling",
+          "isCore": true,
+          "zh": "数据建模",
+          "courseIds": [
+            "CS3321",
+            "CS3322"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：数据库技术与数据库原理提供数据库基本机制的学习入口；细分KU覆盖未核验。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "DM-Relational",
+          "name": "Relational Databases",
+          "page": 117,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703801",
+          "coreHours": "1",
+          "kaHours": "3",
+          "hourTableLabel": "Relational Databases",
+          "isCore": true,
+          "zh": "关系数据库",
+          "courseIds": [
+            "CS3321",
+            "CS3322"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：数据库技术与数据库原理提供数据库基本机制的学习入口；细分KU覆盖未核验。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "DM-Querying",
+          "name": "Query Construction",
+          "page": 118,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703802",
+          "coreHours": "2",
+          "kaHours": "4",
+          "hourTableLabel": "Query Construction",
+          "isCore": true,
+          "zh": "查询构建",
+          "courseIds": [
+            "CS3321",
+            "CS3322"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：数据库技术与数据库原理提供数据库基本机制的学习入口；细分KU覆盖未核验。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "DM-Processing",
+          "name": "Query Processing",
+          "page": 118,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703803",
+          "coreHours": "",
+          "kaHours": "4",
+          "hourTableLabel": "Query Processing",
+          "isCore": false,
+          "zh": "查询处理",
+          "courseIds": [
+            "CS3321",
+            "CS3322"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：数据库技术与数据库原理提供数据库基本机制的学习入口；细分KU覆盖未核验。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "DM-Internals",
+          "name": "DBMS Internals",
+          "page": 119,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703804",
+          "coreHours": "",
+          "kaHours": "4",
+          "hourTableLabel": "DBMS Internals",
+          "isCore": false,
+          "zh": "数据库内部机制",
+          "courseIds": [
+            "CS3321",
+            "CS3322"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：数据库技术与数据库原理提供数据库基本机制的学习入口；细分KU覆盖未核验。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "DM-NoSQL",
+          "name": "NoSQL Systems",
+          "page": 120,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703805",
+          "coreHours": "",
+          "kaHours": "2",
+          "hourTableLabel": "NoSQL Systems",
+          "isCore": false,
+          "zh": "NoSQL系统",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“NoSQL系统”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "DM-Security",
+          "name": "Data Security and Privacy",
+          "page": 121,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703806",
+          "coreHours": "1",
+          "kaHours": "2",
+          "hourTableLabel": "Data Security & Privacy",
+          "isCore": true,
+          "zh": "数据安全与隐私",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“数据安全与隐私”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "DM-Analytics",
+          "name": "Data Analytics",
+          "page": 121,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703807",
+          "coreHours": "",
+          "kaHours": "3",
+          "hourTableLabel": "Data Analytics",
+          "isCore": false,
+          "zh": "数据分析",
+          "courseIds": [
+            "CS3319",
+            "CS4303"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：数据科学基础与大数据处理是数据分析相关学习入口。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "DM-Distributed",
+          "name": "Distributed Databases/Cloud Computing",
+          "page": 122,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703808",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Distributed Databases/Cloud Computing",
+          "isCore": false,
+          "zh": "分布式数据库与云计算",
+          "courseIds": [
+            "CS3328",
+            "CS3322"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：云计算技术与数据库原理是组合学习线索，不代表存在分布式数据库专课。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "DM-Unstructured",
+          "name": "Semi-structured and Unstructured Databases",
+          "page": 122,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703809",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Semi-structured and Unstructured Databases",
+          "isCore": false,
+          "zh": "半结构化与非结构化数据库",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“半结构化与非结构化数据库”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "DM-SEP",
+          "name": "Society, Ethics, and the Profession",
+          "page": 123,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703810",
+          "coreHours": "Included in SEP hours",
+          "kaHours": "",
+          "hourTableLabel": "Society, Ethics, and the Profession",
+          "isCore": false,
+          "zh": "社会、伦理与职业",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“社会、伦理与职业”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        }
+      ],
+      "courseIds": [
+        "CS3321",
+        "CS3322",
+        "CS4303",
+        "CS3319"
+      ]
+    },
+    {
+      "id": "FPL",
+      "name": "程序设计语言基础",
+      "english": "Foundations of Programming Languages",
+      "expectedUnits": 22,
+      "hours": 21,
+      "kaHours": 19,
+      "group": "基础与理论",
+      "description": "理解程序设计范式、类型系统以及程序如何被翻译与执行。",
+      "units": [
+        {
+          "id": "FPL-OOP",
+          "name": "Object-Oriented Programming",
+          "page": 130,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703821",
+          "coreHours": "4 + 1 (SDF)",
+          "kaHours": "1",
+          "hourTableLabel": "Object-Oriented Programming",
+          "isCore": true,
+          "zh": "面向对象编程",
+          "courseIds": [
+            "CS1501"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：C++程序设计课程可作为面向对象编程入口，覆盖深度须查课程大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "FPL-Functional",
+          "name": "Functional Programming",
+          "page": 131,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703822",
+          "coreHours": "4",
+          "kaHours": "3",
+          "hourTableLabel": "Functional Programming",
+          "isCore": true,
+          "zh": "函数式编程",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“函数式编程”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "FPL-Logic",
+          "name": "Logic Programming",
+          "page": 133,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703823",
+          "coreHours": "",
+          "kaHours": "2 + 1 (MSF)",
+          "hourTableLabel": "Logic Programming",
+          "isCore": false,
+          "zh": "逻辑编程",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“逻辑编程”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "FPL-Scripting",
+          "name": "Shell Scripting",
+          "page": 133,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703824",
+          "coreHours": "2",
+          "kaHours": "",
+          "hourTableLabel": "Shell Scripting",
+          "isCore": true,
+          "zh": "Shell脚本",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“Shell脚本”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "FPL-Event-Driven",
+          "name": "Event-Driven and Reactive Programming",
+          "page": 134,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703825",
+          "coreHours": "2",
+          "kaHours": "2",
+          "hourTableLabel": "Event-Driven and Reactive Programming",
+          "isCore": true,
+          "zh": "事件驱动与响应式编程",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“事件驱动与响应式编程”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "FPL-Parallel",
+          "name": "Parallel and Distributed Computing",
+          "page": 135,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703826",
+          "coreHours": "2 + 1 (PDC)",
+          "kaHours": "2",
+          "hourTableLabel": "Parallel and Distributed Computing",
+          "isCore": true,
+          "zh": "并行与分布式计算",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“并行与分布式计算”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "FPL-Aspect",
+          "name": "Aspect-Oriented Programming",
+          "page": 136,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703827",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Aspect-Oriented Programming",
+          "isCore": false,
+          "zh": "面向切面编程",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“面向切面编程”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "FPL-Types",
+          "name": "Type Systems",
+          "page": 136,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703828",
+          "coreHours": "3",
+          "kaHours": "3",
+          "hourTableLabel": "Type Systems",
+          "isCore": true,
+          "zh": "类型系统",
+          "courseIds": [
+            "CS3342"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：程序语言理论可作为类型系统的学习入口，具体覆盖待课程大纲核实。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "FPL-Systems",
+          "name": "Systems Execution and Memory Model",
+          "page": 138,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703829",
+          "coreHours": "2 + 1 (AR and OS)",
+          "kaHours": "",
+          "hourTableLabel": "Systems Execution and Memory Model",
+          "isCore": true,
+          "zh": "系统执行与内存模型",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“系统执行与内存模型”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "FPL-Translation",
+          "name": "Language Translation and Execution",
+          "page": 139,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703830",
+          "coreHours": "2",
+          "kaHours": "3",
+          "hourTableLabel": "Language Translation and Execution",
+          "isCore": true,
+          "zh": "语言翻译与执行",
+          "courseIds": [
+            "CS2301"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：编译原理课程与语言翻译主题直接相关。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "FPL-Abstraction",
+          "name": "Program Abstraction and Representation",
+          "page": 140,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703831",
+          "coreHours": "",
+          "kaHours": "3",
+          "hourTableLabel": "Program Abstraction and Representation",
+          "isCore": false,
+          "zh": "程序抽象与表示",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“程序抽象与表示”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "FPL-Syntax",
+          "name": "Syntax Analysis",
+          "page": 141,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703832",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Syntax Analysis",
+          "isCore": false,
+          "zh": "语法分析",
+          "courseIds": [
+            "CS2301"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：编译原理是语法分析、编译语义分析与代码生成的相关学习入口。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "FPL-Semantics",
+          "name": "Compiler Semantic Analysis",
+          "page": 141,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703833",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Compiler Semantic Analysis",
+          "isCore": false,
+          "zh": "编译语义分析",
+          "courseIds": [
+            "CS2301"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：编译原理是语法分析、编译语义分析与代码生成的相关学习入口。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "FPL-Analysis",
+          "name": "Program Analysis and Analyzers",
+          "page": 142,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703834",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Program Analysis and Analyzers",
+          "isCore": false,
+          "zh": "程序分析与分析器",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“程序分析与分析器”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "FPL-Code",
+          "name": "Code Generation",
+          "page": 142,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703835",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Code Generation",
+          "isCore": false,
+          "zh": "代码生成",
+          "courseIds": [
+            "CS2301"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：编译原理是语法分析、编译语义分析与代码生成的相关学习入口。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "FPL-Run-Time",
+          "name": "Run-time Behavior and Systems",
+          "page": 143,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703836",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Runtime Behavior and Systems",
+          "isCore": false,
+          "zh": "运行时行为与系统",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“运行时行为与系统”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "FPL-Constructs",
+          "name": "Advanced Programming Constructs",
+          "page": 144,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703837",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Advanced Programming Constructs",
+          "isCore": false,
+          "zh": "高级编程结构",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“高级编程结构”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "FPL-Pragmatics",
+          "name": "Language Pragmatics",
+          "page": 144,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703838",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Language Pragmatics",
+          "isCore": false,
+          "zh": "语言实用性",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“语言实用性”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "FPL-Formalism",
+          "name": "Formal Semantics",
+          "page": 145,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703839",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Formal Semantics",
+          "isCore": false,
+          "zh": "形式语义",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“形式语义”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "FPL-Methodologies",
+          "name": "Formal Development Methodologies",
+          "page": 146,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703840",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Formal Development Methodologies",
+          "isCore": false,
+          "zh": "形式化开发方法",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“形式化开发方法”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "FPL-Design",
+          "name": "Design Principles of Programming Languages",
+          "page": 146,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703841",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Design Principles of Programming Languages",
+          "isCore": false,
+          "zh": "语言设计原则",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“语言设计原则”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "FPL-SEP",
+          "name": "Society, Ethics, and the Profession",
+          "page": 147,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703842",
+          "coreHours": "Included in SEP hours",
+          "kaHours": "",
+          "hourTableLabel": "Society, Ethics, and the Profession",
+          "isCore": false,
+          "zh": "社会、伦理与职业",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“社会、伦理与职业”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        }
+      ],
+      "courseIds": [
+        "CS1501",
+        "CS2301",
+        "CS3342"
+      ]
+    },
+    {
+      "id": "GIT",
+      "name": "图形学与交互技术",
+      "english": "Graphics and Interactive Techniques",
+      "expectedUnits": 12,
+      "hours": 4,
+      "kaHours": 70,
+      "group": "数据与智能",
+      "description": "用计算生成、处理与呈现视觉内容，连接图像、建模和交互。",
+      "units": [
+        {
+          "id": "GIT-Fundamentals",
+          "name": "Fundamental Concepts",
+          "page": 155,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703852",
+          "coreHours": "4",
+          "kaHours": "3",
+          "hourTableLabel": "Fundamental Concepts",
+          "isCore": true,
+          "zh": "基本概念",
+          "courseIds": [
+            "CS3310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机图形学提供图形学基础的学习入口。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "GIT-Visualization",
+          "name": "Visualization",
+          "page": 156,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703853",
+          "coreHours": "",
+          "kaHours": "6",
+          "hourTableLabel": "Visualization",
+          "isCore": false,
+          "zh": "可视化",
+          "courseIds": [
+            "CS3320"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：数据可视化与可视分析课程名称直接包含可视化。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "GIT-Rendering",
+          "name": "Applied Rendering and Techniques",
+          "page": 157,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703854",
+          "coreHours": "",
+          "kaHours": "15",
+          "hourTableLabel": "Applied Rendering and Techniques",
+          "isCore": false,
+          "zh": "应用渲染技术",
+          "courseIds": [
+            "CS3310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机图形学可作为渲染与建模相关主题的入口，具体子主题需核课程大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "GIT-Modeling",
+          "name": "Geometric Modeling",
+          "page": 158,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703855",
+          "coreHours": "",
+          "kaHours": "6",
+          "hourTableLabel": "Geometric Modeling",
+          "isCore": false,
+          "zh": "几何建模",
+          "courseIds": [
+            "CS3310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机图形学可作为渲染与建模相关主题的入口，具体子主题需核课程大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "GIT-Shading",
+          "name": "Shading and Advanced Rendering",
+          "page": 159,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703856",
+          "coreHours": "",
+          "kaHours": "6",
+          "hourTableLabel": "Shading and Advanced Rendering",
+          "isCore": false,
+          "zh": "着色与高级渲染",
+          "courseIds": [
+            "CS3310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机图形学可作为渲染与建模相关主题的入口，具体子主题需核课程大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "GIT-Animation",
+          "name": "Computer Animation",
+          "page": 160,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703857",
+          "coreHours": "",
+          "kaHours": "6",
+          "hourTableLabel": "Computer Animation",
+          "isCore": false,
+          "zh": "计算机动画",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“计算机动画”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "GIT-Simulation",
+          "name": "Simulation",
+          "page": 161,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703858",
+          "coreHours": "",
+          "kaHours": "6",
+          "hourTableLabel": "Simulation",
+          "isCore": false,
+          "zh": "仿真",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“仿真”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "GIT-Immersion",
+          "name": "Immersion",
+          "page": 161,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703859",
+          "coreHours": "",
+          "kaHours": "6",
+          "hourTableLabel": "Immersion (MR, AR, VR)",
+          "isCore": false,
+          "zh": "沉浸技术",
+          "courseIds": [
+            "CS3327"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：虚拟现实与增强显示技术与沉浸技术主题直接相关。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "GIT-Interaction",
+          "name": "Interaction",
+          "page": 162,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703860",
+          "coreHours": "",
+          "kaHours": "4",
+          "hourTableLabel": "Interaction",
+          "isCore": false,
+          "zh": "交互",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“交互”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "GIT-Image",
+          "name": "Image Processing",
+          "page": 163,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703861",
+          "coreHours": "",
+          "kaHours": "6",
+          "hourTableLabel": "Image Processing",
+          "isCore": false,
+          "zh": "图像处理",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“图像处理”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "GIT-Physical",
+          "name": "Tangible/Physical Computing",
+          "page": 164,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703862",
+          "coreHours": "",
+          "kaHours": "6",
+          "hourTableLabel": "Tangible/Physical Computing",
+          "isCore": false,
+          "zh": "实体与物理计算",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“实体与物理计算”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "GIT-SEP",
+          "name": "Society, Ethics, and the Profession",
+          "page": 165,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703863",
+          "coreHours": "Included in SEP hours",
+          "kaHours": "",
+          "hourTableLabel": "Society, Ethics, and the Profession",
+          "isCore": false,
+          "zh": "社会、伦理与职业",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“社会、伦理与职业”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        }
+      ],
+      "courseIds": [
+        "CS3310",
+        "CS3320",
+        "CS3327"
+      ]
+    },
+    {
+      "id": "HCI",
+      "name": "人机交互",
+      "english": "Human-Computer Interaction",
+      "expectedUnits": 6,
+      "hours": 8,
+      "kaHours": 16,
+      "group": "人与软件",
+      "description": "围绕人的目标、能力与差异，设计和评估可用、可访问的系统。",
+      "units": [
+        {
+          "id": "HCI-User",
+          "name": "Understanding the User: Individual goals and interactions with others",
+          "page": 174,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703874",
+          "coreHours": "2",
+          "kaHours": "5",
+          "hourTableLabel": "Understanding the User",
+          "isCore": true,
+          "zh": "理解用户",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“理解用户”的具体课程对应。公开课表未找到独立命名的人机交互课程；VR与可视化仅保留在领域层作为相关入口，不能推定覆盖该HCI单元。"
+        },
+        {
+          "id": "HCI-Accountability",
+          "name": "Accountability and Responsibility in Design",
+          "page": 176,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703875",
+          "coreHours": "2",
+          "kaHours": "2",
+          "hourTableLabel": "Accountability and Responsibility in Design",
+          "isCore": true,
+          "zh": "设计中的责任",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“设计中的责任”的具体课程对应。公开课表未找到独立命名的人机交互课程；VR与可视化仅保留在领域层作为相关入口，不能推定覆盖该HCI单元。"
+        },
+        {
+          "id": "HCI-Accessibility",
+          "name": "Accessibility and Inclusive Design",
+          "page": 177,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703876",
+          "coreHours": "2",
+          "kaHours": "2",
+          "hourTableLabel": "Accessibility and Inclusive Design",
+          "isCore": true,
+          "zh": "可访问性与包容设计",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“可访问性与包容设计”的具体课程对应。公开课表未找到独立命名的人机交互课程；VR与可视化仅保留在领域层作为相关入口，不能推定覆盖该HCI单元。"
+        },
+        {
+          "id": "HCI-Evaluation",
+          "name": "Evaluating the Design",
+          "page": 178,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703877",
+          "coreHours": "1",
+          "kaHours": "2",
+          "hourTableLabel": "Evaluating the Design",
+          "isCore": true,
+          "zh": "设计评估",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“设计评估”的具体课程对应。公开课表未找到独立命名的人机交互课程；VR与可视化仅保留在领域层作为相关入口，不能推定覆盖该HCI单元。"
+        },
+        {
+          "id": "HCI-Design",
+          "name": "System Design",
+          "page": 179,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703878",
+          "coreHours": "1",
+          "kaHours": "5",
+          "hourTableLabel": "System Design",
+          "isCore": true,
+          "zh": "系统设计",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“系统设计”的具体课程对应。公开课表未找到独立命名的人机交互课程；VR与可视化仅保留在领域层作为相关入口，不能推定覆盖该HCI单元。"
+        },
+        {
+          "id": "HCI-SEP",
+          "name": "Society, Ethics, and the Profession",
+          "page": 181,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703879",
+          "coreHours": "Included in SEP hours",
+          "kaHours": "",
+          "hourTableLabel": "Society, Ethics, and the Profession",
+          "isCore": false,
+          "zh": "社会、伦理与职业",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“社会、伦理与职业”的具体课程对应。公开课表未找到独立命名的人机交互课程；VR与可视化仅保留在领域层作为相关入口，不能推定覆盖该HCI单元。"
+        }
+      ],
+      "courseIds": [
+        "CS3327",
+        "CS3320"
+      ]
+    },
+    {
+      "id": "MSF",
+      "name": "数学与统计基础",
+      "english": "Mathematical and Statistical Foundations",
+      "expectedUnits": 5,
+      "hours": 55,
+      "kaHours": 145,
+      "group": "基础与理论",
+      "description": "为计算建立离散结构、概率、统计、线性代数与微积分基础。",
+      "units": [
+        {
+          "id": "MSF-Discrete",
+          "name": "Discrete Mathematics",
+          "page": 187,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703891",
+          "coreHours": "29",
+          "kaHours": "11",
+          "hourTableLabel": "Discrete Mathematics",
+          "isCore": true,
+          "zh": "离散数学",
+          "courseIds": [
+            "CS2501"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：离散数学课程与该单元直接同名。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "MSF-Probability",
+          "name": "Probability",
+          "page": 188,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703892",
+          "coreHours": "11",
+          "kaHours": "29",
+          "hourTableLabel": "Probability",
+          "isCore": true,
+          "zh": "概率",
+          "courseIds": [
+            "MATH1207"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：概率统计课程在名称中同时明确列出概率与统计。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "MSF-Statistics",
+          "name": "Statistics",
+          "page": 190,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703893",
+          "coreHours": "10",
+          "kaHours": "30",
+          "hourTableLabel": "Statistics",
+          "isCore": true,
+          "zh": "统计",
+          "courseIds": [
+            "MATH1207"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：概率统计课程在名称中同时明确列出概率与统计。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "MSF-Linear",
+          "name": "Linear Algebra",
+          "page": 191,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703894",
+          "coreHours": "5",
+          "kaHours": "35",
+          "hourTableLabel": "Linear Algebra",
+          "isCore": true,
+          "zh": "线性代数",
+          "courseIds": [
+            "MATH1205"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：线性代数课程与该单元直接同名。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "MSF-Calculus",
+          "name": "Calculus",
+          "page": 192,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703895",
+          "coreHours": "0",
+          "kaHours": "40",
+          "hourTableLabel": "Calculus",
+          "isCore": false,
+          "zh": "微积分",
+          "courseIds": [
+            "MATH1201",
+            "MATH1202"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：高等数学I与II为微积分相关的基础学习入口。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        }
+      ],
+      "courseIds": [
+        "CS2501",
+        "CS2304",
+        "MATH1205",
+        "MATH1207",
+        "MATH1201",
+        "MATH1202"
+      ]
+    },
+    {
+      "id": "NC",
+      "name": "网络与通信",
+      "english": "Networking and Communication",
+      "expectedUnits": 8,
+      "hours": 7,
+      "kaHours": 24,
+      "group": "系统与计算",
+      "description": "理解联网应用、可靠传输、路由、安全与移动通信。",
+      "units": [
+        {
+          "id": "NC-Fundamentals",
+          "name": "Fundamentals",
+          "page": 198,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703906",
+          "coreHours": "2.5 + 0.25 (SEP) + 0.25 (SF)",
+          "kaHours": "",
+          "hourTableLabel": "Fundamentals",
+          "isCore": true,
+          "zh": "网络基础",
+          "courseIds": [
+            "CS3311"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机网络课程与网络基本机制主题直接相关，具体KU覆盖待核实。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "NC-Applications",
+          "name": "Networked Applications",
+          "page": 199,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703907",
+          "coreHours": "3.5 + 0.25 (SEP) + 0.25 (PDC)",
+          "kaHours": "",
+          "hourTableLabel": "Networked Applications",
+          "isCore": true,
+          "zh": "联网应用",
+          "courseIds": [
+            "CS3311"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机网络课程与网络基本机制主题直接相关，具体KU覆盖待核实。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "NC-Reliability",
+          "name": "Reliability Support",
+          "page": 199,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703908",
+          "coreHours": "",
+          "kaHours": "5.75 + 0.25 (SF)",
+          "hourTableLabel": "Reliability Support",
+          "isCore": false,
+          "zh": "可靠性支持",
+          "courseIds": [
+            "CS3311"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机网络课程与网络基本机制主题直接相关，具体KU覆盖待核实。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "NC-Routing",
+          "name": "Routing and Forwarding",
+          "page": 199,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703909",
+          "coreHours": "",
+          "kaHours": "4",
+          "hourTableLabel": "Routing And Forwarding",
+          "isCore": false,
+          "zh": "路由与转发",
+          "courseIds": [
+            "CS3311"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机网络课程与网络基本机制主题直接相关，具体KU覆盖待核实。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "NC-SingleHop",
+          "name": "Single Hop Communication",
+          "page": 200,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703910",
+          "coreHours": "",
+          "kaHours": "3",
+          "hourTableLabel": "Single-Hop Communication",
+          "isCore": false,
+          "zh": "单跳通信",
+          "courseIds": [
+            "CS3311"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机网络课程与网络基本机制主题直接相关，具体KU覆盖待核实。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "NC-Security",
+          "name": "Network Security",
+          "page": 200,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703911",
+          "coreHours": "",
+          "kaHours": "2.25 + 0.5 (SEC) + 0.25 (SEP)",
+          "hourTableLabel": "Network Security",
+          "isCore": false,
+          "zh": "网络安全",
+          "courseIds": [
+            "CS3325"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：网络安全技术课程与网络安全单元直接同名相关。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "NC-Mobility",
+          "name": "Mobility",
+          "page": 201,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703912",
+          "coreHours": "",
+          "kaHours": "4",
+          "hourTableLabel": "Mobility Support",
+          "isCore": false,
+          "zh": "移动性",
+          "courseIds": [
+            "ICE3307"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：无线通信原理与移动网络课程名称明确涉及移动网络。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "NC-Emerging",
+          "name": "Emerging Topics",
+          "page": 201,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703913",
+          "coreHours": "",
+          "kaHours": "4",
+          "hourTableLabel": "Emerging Topics",
+          "isCore": false,
+          "zh": "新兴主题",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“新兴主题”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        }
+      ],
+      "courseIds": [
+        "CS3311",
+        "ICE3307",
+        "CS3350"
+      ]
+    },
+    {
+      "id": "OS",
+      "name": "操作系统",
+      "english": "Operating Systems",
+      "expectedUnits": 14,
+      "hours": 8,
+      "kaHours": 13,
+      "group": "系统与计算",
+      "description": "理解资源管理、并发、进程、存储、文件系统与保护机制。",
+      "units": [
+        {
+          "id": "OS-Purpose",
+          "name": "Role and Purpose of Operating Systems",
+          "page": 206,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703923",
+          "coreHours": "2",
+          "kaHours": "",
+          "hourTableLabel": "Role and Purpose of Operating Systems",
+          "isCore": true,
+          "zh": "操作系统的作用",
+          "courseIds": [
+            "CS2310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：现代操作系统课程提供操作系统领域学习入口；各细分机制需逐项查课程大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "OS-Principles",
+          "name": "Principles of Operating System",
+          "page": 207,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703924",
+          "coreHours": "2",
+          "kaHours": "",
+          "hourTableLabel": "Principles of Operating System",
+          "isCore": true,
+          "zh": "操作系统原理",
+          "courseIds": [
+            "CS2310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：现代操作系统课程提供操作系统领域学习入口；各细分机制需逐项查课程大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "OS-Concurrency",
+          "name": "Concurrency",
+          "page": 208,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703925",
+          "coreHours": "2",
+          "kaHours": "1",
+          "hourTableLabel": "Concurrency",
+          "isCore": true,
+          "zh": "并发",
+          "courseIds": [
+            "CS2310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：现代操作系统课程提供操作系统领域学习入口；各细分机制需逐项查课程大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "OS-Protection",
+          "name": "Protection and Safety",
+          "page": 209,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703926",
+          "coreHours": "2",
+          "kaHours": "1",
+          "hourTableLabel": "Protection and Safety",
+          "isCore": true,
+          "zh": "保护与安全",
+          "courseIds": [
+            "CS2310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：现代操作系统课程提供操作系统领域学习入口；各细分机制需逐项查课程大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "OS-Scheduling",
+          "name": "Scheduling",
+          "page": 209,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703927",
+          "coreHours": "",
+          "kaHours": "2",
+          "hourTableLabel": "Scheduling",
+          "isCore": false,
+          "zh": "调度",
+          "courseIds": [
+            "CS2310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：现代操作系统课程提供操作系统领域学习入口；各细分机制需逐项查课程大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "OS-Process",
+          "name": "Process Model",
+          "page": 210,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703928",
+          "coreHours": "",
+          "kaHours": "2",
+          "hourTableLabel": "Process Model",
+          "isCore": false,
+          "zh": "进程模型",
+          "courseIds": [
+            "CS2310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：现代操作系统课程提供操作系统领域学习入口；各细分机制需逐项查课程大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "OS-Memory",
+          "name": "Memory Management",
+          "page": 210,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703929",
+          "coreHours": "",
+          "kaHours": "0.5 +1.5 (AR)",
+          "hourTableLabel": "Memory Management",
+          "isCore": false,
+          "zh": "内存管理",
+          "courseIds": [
+            "CS2310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：现代操作系统课程提供操作系统领域学习入口；各细分机制需逐项查课程大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "OS-Devices",
+          "name": "Device management",
+          "page": 211,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703930",
+          "coreHours": "",
+          "kaHours": "0.5+0.5 (AR)",
+          "hourTableLabel": "Device Management",
+          "isCore": false,
+          "zh": "设备管理",
+          "courseIds": [
+            "CS2310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：现代操作系统课程提供操作系统领域学习入口；各细分机制需逐项查课程大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "OS-Files",
+          "name": "File Systems API and Implementation",
+          "page": 212,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703931",
+          "coreHours": "",
+          "kaHours": "2",
+          "hourTableLabel": "File Systems API and Implementation",
+          "isCore": false,
+          "zh": "文件系统接口与实现",
+          "courseIds": [
+            "CS2310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：现代操作系统课程提供操作系统领域学习入口；各细分机制需逐项查课程大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "OS-Advanced-Files",
+          "name": "Advanced File systems",
+          "page": 212,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703932",
+          "coreHours": "",
+          "kaHours": "1",
+          "hourTableLabel": "Advanced File Systems",
+          "isCore": false,
+          "zh": "高级文件系统",
+          "courseIds": [
+            "CS2310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：现代操作系统课程提供操作系统领域学习入口；各细分机制需逐项查课程大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "OS-Virtualization",
+          "name": "Virtualization",
+          "page": 213,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703933",
+          "coreHours": "",
+          "kaHours": "1",
+          "hourTableLabel": "Virtualization",
+          "isCore": false,
+          "zh": "虚拟化",
+          "courseIds": [
+            "CS2310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：现代操作系统课程提供操作系统领域学习入口；各细分机制需逐项查课程大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "OS-Real-time",
+          "name": "Real-time and Embedded Systems",
+          "page": 214,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703934",
+          "coreHours": "",
+          "kaHours": "1",
+          "hourTableLabel": "Real-time and Embedded Systems",
+          "isCore": false,
+          "zh": "实时与嵌入式系统",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“实时与嵌入式系统”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "OS-Faults",
+          "name": "Fault tolerance",
+          "page": 214,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703935",
+          "coreHours": "",
+          "kaHours": "1",
+          "hourTableLabel": "Fault Tolerance",
+          "isCore": false,
+          "zh": "容错",
+          "courseIds": [
+            "CS2310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：现代操作系统课程提供操作系统领域学习入口；各细分机制需逐项查课程大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "OS-SEP",
+          "name": "Society, Ethics, and the Profession",
+          "page": 215,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703936",
+          "coreHours": "Included in SEP hours",
+          "kaHours": "",
+          "hourTableLabel": "Society, Ethics, and the Profession",
+          "isCore": false,
+          "zh": "社会、伦理与职业",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“社会、伦理与职业”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        }
+      ],
+      "courseIds": [
+        "CS2310",
+        "CS2303",
+        "CS3347"
+      ]
+    },
+    {
+      "id": "PDC",
+      "name": "并行与分布式计算",
+      "english": "Parallel and Distributed Computing",
+      "expectedUnits": 5,
+      "hours": 9,
+      "kaHours": 26,
+      "group": "系统与计算",
+      "description": "让计算任务在多个执行单元上沟通、协调，并衡量性能。",
+      "units": [
+        {
+          "id": "PDC-Programs",
+          "name": "Programs",
+          "page": 219,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703947",
+          "coreHours": "2",
+          "kaHours": "2",
+          "hourTableLabel": "Programs",
+          "isCore": true,
+          "zh": "并行程序",
+          "courseIds": [
+            "CS4302"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：并行与分布式程序设计是并行计算领域的直接学习入口，单元覆盖需查大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "PDC-Communication",
+          "name": "Communication",
+          "page": 220,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703948",
+          "coreHours": "2",
+          "kaHours": "6",
+          "hourTableLabel": "Communication",
+          "isCore": true,
+          "zh": "通信",
+          "courseIds": [
+            "CS4302"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：并行与分布式程序设计是并行计算领域的直接学习入口，单元覆盖需查大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "PDC-Coordination",
+          "name": "Coordination",
+          "page": 222,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703949",
+          "coreHours": "2",
+          "kaHours": "6",
+          "hourTableLabel": "Coordination",
+          "isCore": true,
+          "zh": "协调",
+          "courseIds": [
+            "CS4302"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：并行与分布式程序设计是并行计算领域的直接学习入口，单元覆盖需查大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "PDC-Evaluation",
+          "name": "Evaluation",
+          "page": 224,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703950",
+          "coreHours": "1",
+          "kaHours": "3",
+          "hourTableLabel": "Evaluation",
+          "isCore": true,
+          "zh": "评估",
+          "courseIds": [
+            "CS4302"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：并行与分布式程序设计是并行计算领域的直接学习入口，单元覆盖需查大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "PDC-Algorithms",
+          "name": "Algorithms",
+          "page": 225,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703951",
+          "coreHours": "2",
+          "kaHours": "9",
+          "hourTableLabel": "Algorithms",
+          "isCore": true,
+          "zh": "并行算法",
+          "courseIds": [
+            "CS4302"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：并行与分布式程序设计是并行计算领域的直接学习入口，单元覆盖需查大纲。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        }
+      ],
+      "courseIds": [
+        "CS4302",
+        "CS3328",
+        "CS3301"
+      ]
+    },
+    {
+      "id": "SDF",
+      "name": "软件开发基础",
+      "english": "Software Development Fundamentals",
+      "expectedUnits": 5,
+      "hours": 43,
+      "kaHours": null,
+      "group": "基础与理论",
+      "description": "学习编程概念、数据结构、基本算法与可靠的软件开发实践。",
+      "units": [
+        {
+          "id": "SDF-Fundamentals",
+          "name": "Fundamental Programming Concepts and Practices",
+          "page": 230,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703963",
+          "coreHours": "20",
+          "kaHours": "",
+          "hourTableLabel": "Fundamental Programming Concepts and Practices",
+          "isCore": true,
+          "zh": "编程基本概念与实践",
+          "courseIds": [
+            "CS1501"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：程序设计思想与方法课程与基础编程主题直接相关。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SDF-Data-Structures",
+          "name": "Fundamental Data Structures",
+          "page": 231,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703964",
+          "coreHours": "6 + 6 (AL)",
+          "kaHours": "",
+          "hourTableLabel": "Fundamental Data Structures",
+          "isCore": true,
+          "zh": "基本数据结构",
+          "courseIds": [
+            "CS0501"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：数据结构课程提供基础数据结构与相关算法学习入口。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SDF-Algorithms",
+          "name": "Algorithms",
+          "page": 232,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703965",
+          "coreHours": "3 + 3 (AL)",
+          "kaHours": "",
+          "hourTableLabel": "Algorithms",
+          "isCore": true,
+          "zh": "算法",
+          "courseIds": [
+            "CS0501"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：数据结构课程提供基础数据结构与相关算法学习入口。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SDF-Practices",
+          "name": "Software Development Practices",
+          "page": 232,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703966",
+          "coreHours": "5",
+          "kaHours": "",
+          "hourTableLabel": "Software Development Practices",
+          "isCore": true,
+          "zh": "软件开发实践",
+          "courseIds": [
+            "NIS1336"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机编程实践与软件开发实践的实践属性直接相关。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SDF-SEP",
+          "name": "Society, Ethics, and the Profession",
+          "page": 233,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703967",
+          "coreHours": "Included in SEP hours",
+          "kaHours": "",
+          "hourTableLabel": "Society, Ethics and the Profession",
+          "isCore": false,
+          "zh": "社会、伦理与职业",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“社会、伦理与职业”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        }
+      ],
+      "courseIds": [
+        "CS1501",
+        "CS0501",
+        "NIS1336"
+      ]
+    },
+    {
+      "id": "SE",
+      "name": "软件工程",
+      "english": "Software Engineering",
+      "expectedUnits": 9,
+      "hours": 6,
+      "kaHours": 21,
+      "group": "人与软件",
+      "description": "在团队与工程约束下完成需求、设计、实现、验证和持续维护。",
+      "units": [
+        {
+          "id": "SE-Teamwork",
+          "name": "Teamwork",
+          "page": 240,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703978",
+          "coreHours": "2 + 3 (SEP)",
+          "kaHours": "2",
+          "hourTableLabel": "Teamwork",
+          "isCore": true,
+          "zh": "团队协作",
+          "courseIds": [
+            "CS3331"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：软件工程课程是软件工程活动的领域学习入口；不据课程名称认定全部KU已覆盖。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SE-Tools",
+          "name": "Tools and Environments",
+          "page": 241,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703979",
+          "coreHours": "1",
+          "kaHours": "3 + 1 (SDF)",
+          "hourTableLabel": "Tools and Environments",
+          "isCore": true,
+          "zh": "工具与环境",
+          "courseIds": [
+            "CS3331"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：软件工程课程是软件工程活动的领域学习入口；不据课程名称认定全部KU已覆盖。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SE-Requirements",
+          "name": "Product Requirements",
+          "page": 242,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703980",
+          "coreHours": "0 + 3 (SEP)",
+          "kaHours": "2",
+          "hourTableLabel": "Product Requirements",
+          "isCore": false,
+          "zh": "产品需求",
+          "courseIds": [
+            "CS3331"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：软件工程课程是软件工程活动的领域学习入口；不据课程名称认定全部KU已覆盖。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SE-Design",
+          "name": "Software Design",
+          "page": 243,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703981",
+          "coreHours": "1",
+          "kaHours": "4 + 2 (DM)",
+          "hourTableLabel": "Software Design",
+          "isCore": true,
+          "zh": "软件设计",
+          "courseIds": [
+            "CS3331"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：软件工程课程是软件工程活动的领域学习入口；不据课程名称认定全部KU已覆盖。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SE-Construction",
+          "name": "Software Construction",
+          "page": 245,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703982",
+          "coreHours": "1 + 3 (SDF)",
+          "kaHours": "3 + 1 (SDF)",
+          "hourTableLabel": "Software Construction",
+          "isCore": true,
+          "zh": "软件构建",
+          "courseIds": [
+            "CS3331"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：软件工程课程是软件工程活动的领域学习入口；不据课程名称认定全部KU已覆盖。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SE-Validation",
+          "name": "Software Verification and Validation",
+          "page": 246,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703983",
+          "coreHours": "1",
+          "kaHours": "3",
+          "hourTableLabel": "Software Verification and Validation",
+          "isCore": true,
+          "zh": "软件验证与确认",
+          "courseIds": [
+            "CS3331"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：软件工程课程是软件工程活动的领域学习入口；不据课程名称认定全部KU已覆盖。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SE-Refactoring",
+          "name": "Refactoring and Code Evolution",
+          "page": 249,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703984",
+          "coreHours": "",
+          "kaHours": "2",
+          "hourTableLabel": "Refactoring and Code Evolution",
+          "isCore": false,
+          "zh": "重构与演化",
+          "courseIds": [
+            "CS3331"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：软件工程课程是软件工程活动的领域学习入口；不据课程名称认定全部KU已覆盖。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SE-Reliability",
+          "name": "Software Reliability",
+          "page": 250,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703985",
+          "coreHours": "",
+          "kaHours": "2",
+          "hourTableLabel": "Software Reliability",
+          "isCore": false,
+          "zh": "软件可靠性",
+          "courseIds": [
+            "CS3331"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：软件工程课程是软件工程活动的领域学习入口；不据课程名称认定全部KU已覆盖。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SE-Formal",
+          "name": "Formal Methods",
+          "page": 251,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703986",
+          "coreHours": "",
+          "kaHours": "",
+          "hourTableLabel": "Formal Methods",
+          "isCore": false,
+          "zh": "形式方法",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“形式方法”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        }
+      ],
+      "courseIds": [
+        "CS3331",
+        "CS4315"
+      ]
+    },
+    {
+      "id": "SEC",
+      "name": "安全",
+      "english": "Security",
+      "expectedUnits": 7,
+      "hours": 6,
+      "kaHours": 35,
+      "group": "人与软件",
+      "description": "识别威胁，建立安全的编码、密码、工程与治理方法。",
+      "units": [
+        {
+          "id": "SEC-Foundations",
+          "name": "Foundational Security",
+          "page": 257,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703997",
+          "coreHours": "1 + 7 (DM, FPL, PDC, SDF, SE, OS)",
+          "kaHours": "7",
+          "hourTableLabel": "Foundational Security",
+          "isCore": true,
+          "zh": "安全基础",
+          "courseIds": [
+            "CS3314",
+            "CS3312"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：信息安全基础与计算机系统安全课程提供安全基础学习入口。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SEC-SEP",
+          "name": "Society, Ethics, and the Profession",
+          "page": 258,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703998",
+          "coreHours": "1 + 4 (SEP)",
+          "kaHours": "2",
+          "hourTableLabel": "Society, Ethics, and the Profession",
+          "isCore": true,
+          "zh": "社会、伦理与职业",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“社会、伦理与职业”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "SEC-Coding",
+          "name": "Secure Coding",
+          "page": 259,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166703999",
+          "coreHours": "2 + 6 (FPL, SDF, SE)",
+          "kaHours": "5",
+          "hourTableLabel": "Secure Coding",
+          "isCore": true,
+          "zh": "安全编码",
+          "courseIds": [
+            "CS3312"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机系统安全提供安全工程相关入口；安全编码与工程方法具体覆盖待核实。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SEC-Crypto",
+          "name": "Cryptography",
+          "page": 260,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704000",
+          "coreHours": "1 + 8 (MSF)",
+          "kaHours": "4",
+          "hourTableLabel": "Cryptography",
+          "isCore": true,
+          "zh": "密码学",
+          "courseIds": [
+            "CS3314"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：密码学与信息安全基础课程名称明确涉及密码学。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SEC-Engineering",
+          "name": "Security Analysis, Design, and Engineering",
+          "page": 261,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704001",
+          "coreHours": "1 + 4 (MSF, SE)",
+          "kaHours": "8",
+          "hourTableLabel": "Security Analysis, Design, and Engineering",
+          "isCore": true,
+          "zh": "安全分析、设计与工程",
+          "courseIds": [
+            "CS3312"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机系统安全提供安全工程相关入口；安全编码与工程方法具体覆盖待核实。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SEC-Forensics",
+          "name": "Digital Forensics",
+          "page": 262,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704002",
+          "coreHours": "0",
+          "kaHours": "6",
+          "hourTableLabel": "Digital Forensics",
+          "isCore": false,
+          "zh": "数字取证",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“数字取证”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "SEC-Governance",
+          "name": "Security Governance",
+          "page": 263,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704003",
+          "coreHours": "0",
+          "kaHours": "3",
+          "hourTableLabel": "Security Governance",
+          "isCore": false,
+          "zh": "安全治理",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“安全治理”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        }
+      ],
+      "courseIds": [
+        "CS3314",
+        "CS3312",
+        "CS3325"
+      ]
+    },
+    {
+      "id": "SEP",
+      "name": "社会、伦理与职业",
+      "english": "Society, Ethics, and the Profession",
+      "expectedUnits": 11,
+      "hours": 18,
+      "kaHours": 14,
+      "group": "人与软件",
+      "description": "理解计算的社会背景、职业责任、隐私、公平和可持续性。",
+      "units": [
+        {
+          "id": "SEP-Context",
+          "name": "Social Context",
+          "page": 273,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704014",
+          "coreHours": "3",
+          "kaHours": "2",
+          "hourTableLabel": "Social Context",
+          "isCore": true,
+          "zh": "社会背景",
+          "courseIds": [
+            "CS3309"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机伦理学与计算伦理、职业责任相关；并未核查完整学习目标。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SEP-Ethical-Analysis",
+          "name": "Methods for Ethical Analysis",
+          "page": 274,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704015",
+          "coreHours": "2",
+          "kaHours": "1",
+          "hourTableLabel": "Methods for Ethical Analysis",
+          "isCore": true,
+          "zh": "伦理分析方法",
+          "courseIds": [
+            "CS3309"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机伦理学与计算伦理、职业责任相关；并未核查完整学习目标。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SEP-Professional-Ethics",
+          "name": "Professional Ethics",
+          "page": 276,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704016",
+          "coreHours": "2",
+          "kaHours": "2",
+          "hourTableLabel": "Professional Ethics",
+          "isCore": true,
+          "zh": "职业伦理",
+          "courseIds": [
+            "CS3309"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机伦理学与计算伦理、职业责任相关；并未核查完整学习目标。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SEP-IP",
+          "name": "Intellectual Property",
+          "page": 277,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704017",
+          "coreHours": "1",
+          "kaHours": "1",
+          "hourTableLabel": "Intellectual Property",
+          "isCore": true,
+          "zh": "知识产权",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“知识产权”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "SEP-Privacy",
+          "name": "Privacy and Civil Liberties",
+          "page": 278,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704018",
+          "coreHours": "2",
+          "kaHours": "1",
+          "hourTableLabel": "Privacy and Civil Liberties",
+          "isCore": true,
+          "zh": "隐私与公民自由",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“隐私与公民自由”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "SEP-Communication",
+          "name": "Communication",
+          "page": 279,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704019",
+          "coreHours": "2",
+          "kaHours": "1",
+          "hourTableLabel": "Communication",
+          "isCore": true,
+          "zh": "沟通",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“沟通”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "SEP-Sustainability",
+          "name": "Sustainability",
+          "page": 281,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704020",
+          "coreHours": "1",
+          "kaHours": "1",
+          "hourTableLabel": "Sustainability",
+          "isCore": true,
+          "zh": "可持续性",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“可持续性”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "SEP-History",
+          "name": "Computing History",
+          "page": 282,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704021",
+          "coreHours": "1",
+          "kaHours": "1",
+          "hourTableLabel": "History",
+          "isCore": true,
+          "zh": "计算历史",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“计算历史”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "SEP-Economies",
+          "name": "Economies of Computing",
+          "page": 283,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704022",
+          "coreHours": "0",
+          "kaHours": "1",
+          "hourTableLabel": "Economies of Computing",
+          "isCore": false,
+          "zh": "计算经济",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“计算经济”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "SEP-Security",
+          "name": "Security Policies, Laws and Computer Crimes",
+          "page": 284,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704023",
+          "coreHours": "2",
+          "kaHours": "1",
+          "hourTableLabel": "Security Policies, Laws, and Computer Crimes",
+          "isCore": true,
+          "zh": "安全政策、法律与计算机犯罪",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“安全政策、法律与计算机犯罪”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "SEP-DEIA",
+          "name": "Diversity, Equity, Inclusion, and Accessibility",
+          "page": 285,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704024",
+          "coreHours": "2",
+          "kaHours": "2",
+          "hourTableLabel": "Diversity, Equity, Inclusion and Accessibility",
+          "isCore": true,
+          "zh": "多样性、公平、包容与可访问性",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“多样性、公平、包容与可访问性”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        }
+      ],
+      "courseIds": [
+        "CS3309"
+      ]
+    },
+    {
+      "id": "SF",
+      "name": "系统基础",
+      "english": "Systems Fundamentals",
+      "expectedUnits": 9,
+      "hours": 18,
+      "kaHours": 8,
+      "group": "系统与计算",
+      "description": "以整体视角分析计算机系统的资源、性能、可靠性与安全。",
+      "units": [
+        {
+          "id": "SF-Overview",
+          "name": "Overview of Computer Systems",
+          "page": 292,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704034",
+          "coreHours": "3",
+          "kaHours": "0",
+          "hourTableLabel": "Overview of Computer Systems",
+          "isCore": true,
+          "zh": "计算机系统概览",
+          "courseIds": [
+            "CS2307"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机组成课程提供系统整体结构与基础概念学习入口。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SF-Foundations",
+          "name": "Basic Concepts",
+          "page": 293,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704035",
+          "coreHours": "4",
+          "kaHours": "0",
+          "hourTableLabel": "Basic Concepts",
+          "isCore": true,
+          "zh": "基本概念",
+          "courseIds": [
+            "CS2307"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机组成课程提供系统整体结构与基础概念学习入口。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SF-Resource",
+          "name": "Resource Management",
+          "page": 294,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704036",
+          "coreHours": "1",
+          "kaHours": "1",
+          "hourTableLabel": "Resource Management",
+          "isCore": true,
+          "zh": "资源管理",
+          "courseIds": [
+            "CS2310"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：现代操作系统提供系统资源管理的相关学习入口。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SF-Performance",
+          "name": "System Performance",
+          "page": 294,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704037",
+          "coreHours": "2",
+          "kaHours": "2",
+          "hourTableLabel": "System Performance",
+          "isCore": true,
+          "zh": "系统性能",
+          "courseIds": [
+            "CS2305"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机系统结构提供系统性能相关学习入口，具体评估方法待核实。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SF-Evaluation",
+          "name": "Performance Evaluation",
+          "page": 295,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704038",
+          "coreHours": "2",
+          "kaHours": "2",
+          "hourTableLabel": "Performance Evaluation",
+          "isCore": true,
+          "zh": "性能评估",
+          "courseIds": [
+            "CS2305"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机系统结构提供系统性能相关学习入口，具体评估方法待核实。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SF-Reliability",
+          "name": "System Reliability",
+          "page": 296,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704039",
+          "coreHours": "2",
+          "kaHours": "1",
+          "hourTableLabel": "System Reliability",
+          "isCore": true,
+          "zh": "系统可靠性",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“系统可靠性”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "SF-Security",
+          "name": "System Security",
+          "page": 297,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704040",
+          "coreHours": "2",
+          "kaHours": "1",
+          "hourTableLabel": "System Security",
+          "isCore": true,
+          "zh": "系统安全",
+          "courseIds": [
+            "CS3312"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：计算机系统安全课程与系统安全单元主题直接相关。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SF-Design",
+          "name": "System Design",
+          "page": 297,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704041",
+          "coreHours": "2",
+          "kaHours": "1",
+          "hourTableLabel": "System Design",
+          "isCore": true,
+          "zh": "系统设计",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“系统设计”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "SF-SEP",
+          "name": "Society, Ethics, and the Profession",
+          "page": 297,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704042",
+          "coreHours": "Included in SEP hours",
+          "kaHours": "",
+          "hourTableLabel": "Society, Ethics, and Profession",
+          "isCore": false,
+          "zh": "社会、伦理与职业",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“社会、伦理与职业”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        }
+      ],
+      "courseIds": [
+        "CS2307",
+        "CS2305",
+        "CS2310"
+      ]
+    },
+    {
+      "id": "SPD",
+      "name": "专用平台开发",
+      "english": "Specialized Platform Development",
+      "expectedUnits": 8,
+      "hours": 4,
+      "kaHours": null,
+      "group": "人与软件",
+      "description": "面向Web、移动、机器人、嵌入式、游戏等平台构建软件。",
+      "units": [
+        {
+          "id": "SPD-Common",
+          "name": "Common Aspects/Shared Concerns",
+          "page": 302,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704052",
+          "coreHours": "3 + (1 SE)",
+          "kaHours": "2",
+          "hourTableLabel": "Common Aspects",
+          "isCore": true,
+          "zh": "共性与共同关注",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“共性与共同关注”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        },
+        {
+          "id": "SPD-Web",
+          "name": "Web Platforms",
+          "page": 303,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704053",
+          "coreHours": "",
+          "kaHours": "5 + (1 HCI)",
+          "hourTableLabel": "Web Platforms",
+          "isCore": false,
+          "zh": "Web平台",
+          "courseIds": [
+            "CS3351"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：智算云服务系统实践是Web后端相关学习线索，Web全栈覆盖尚未核验。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SPD-Mobile",
+          "name": "Mobile Platforms",
+          "page": 303,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704054",
+          "coreHours": "",
+          "kaHours": "3 + (2 DM) + (1 GIT) + (1 HCI) + (1 NC)",
+          "hourTableLabel": "Mobile Platforms",
+          "isCore": false,
+          "zh": "移动平台",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“移动平台”的具体交大课程对应。公开课程名称不足以确认独立的移动、游戏或嵌入式平台开发课程。"
+        },
+        {
+          "id": "SPD-Robot",
+          "name": "Robot Platforms",
+          "page": 304,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704055",
+          "coreHours": "",
+          "kaHours": "4 + (3 GIT) + (3 AI)",
+          "hourTableLabel": "Robot Platforms",
+          "isCore": false,
+          "zh": "机器人平台",
+          "courseIds": [
+            "CS3349"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：智算无人系统实践是机器人平台相关学习线索。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SPD-Embedded",
+          "name": "Embedded Platforms",
+          "page": 305,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704056",
+          "coreHours": "",
+          "kaHours": "4 + (4 AR) + (1 FPL) + (1 GIT) + (3 OS) + (1 SF)",
+          "hourTableLabel": "Embedded Platforms",
+          "isCore": false,
+          "zh": "嵌入式平台",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“嵌入式平台”的具体交大课程对应。公开课程名称不足以确认独立的移动、游戏或嵌入式平台开发课程。"
+        },
+        {
+          "id": "SPD-Game",
+          "name": "Game Platforms",
+          "page": 306,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704057",
+          "coreHours": "",
+          "kaHours": "4 + (1 AL) + (1 AI) + (4 AR) + (5 GIT) + (2 HCI) + (1 SDF) + (1 SE) + (1 MSF)",
+          "hourTableLabel": "Game Platforms",
+          "isCore": false,
+          "zh": "游戏平台",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“游戏平台”的具体交大课程对应。公开课程名称不足以确认独立的移动、游戏或嵌入式平台开发课程。"
+        },
+        {
+          "id": "SPD-Interactive",
+          "name": "Interactive Computing Platforms",
+          "page": 308,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704058",
+          "coreHours": "",
+          "kaHours": "3 + (1 DM) + (2 GIT) + (1 AR) + (1 FPL)",
+          "hourTableLabel": "Interactive Computing Platforms",
+          "isCore": false,
+          "zh": "交互计算平台",
+          "courseIds": [
+            "CS3327"
+          ],
+          "mappingStatus": "editorial-suggestion",
+          "mappingNote": "人工学习入口建议：虚拟现实与增强显示技术是交互平台相关学习线索，不等于完整平台开发训练。 依据仅为公开课程名称及主题关联，未核验课程大纲，未经学院认定，不表示覆盖该KU全部学习目标。"
+        },
+        {
+          "id": "SPD-SEP",
+          "name": "Society, Ethics, and the Profession",
+          "page": 309,
+          "source": "https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm#_Toc166704059",
+          "coreHours": "Included in SEP hours",
+          "kaHours": "",
+          "hourTableLabel": "SPD-SEP",
+          "isCore": false,
+          "zh": "社会、伦理与职业",
+          "courseIds": [],
+          "mappingStatus": "unverified",
+          "mappingNote": "尚未核验“社会、伦理与职业”的具体交大课程对应。现有课程名称不足以建立可靠的KU级对应，故不自动继承本领域课程。"
+        }
+      ],
+      "courseIds": [
+        "CS3349",
+        "CS3327",
+        "CS3351",
+        "CS4319"
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": "CS3317",
+      "name": "人工智能（B类）",
+      "credits": 3.0,
+      "year": "二",
+      "semester": "2",
+      "type": "必修",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS0501",
+      "name": "数据结构",
+      "credits": 3.0,
+      "year": "一",
+      "semester": "2",
+      "type": "必修",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS1501",
+      "name": "程序设计思想与方法（C++）",
+      "credits": 4.0,
+      "year": "一",
+      "semester": "1",
+      "type": "必修",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "MATH1201",
+      "name": "高等数学I",
+      "credits": 6.0,
+      "year": "一",
+      "semester": "1",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "MATH1202",
+      "name": "高等数学II",
+      "credits": 4.0,
+      "year": "一",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS2501",
+      "name": "离散数学",
+      "credits": 3.0,
+      "year": "一",
+      "semester": "2",
+      "type": "必修",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "MATH1205",
+      "name": "线性代数",
+      "credits": 3.0,
+      "year": "一",
+      "semester": "1",
+      "type": "必修",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "MATH1207",
+      "name": "概率统计",
+      "credits": 3.0,
+      "year": "二",
+      "semester": "1",
+      "type": "必修",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS2303",
+      "name": "操作系统课程设计",
+      "credits": 2.0,
+      "year": "二",
+      "semester": "2",
+      "type": "必修",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS2306",
+      "name": "计算机系统结构实验",
+      "credits": 2.0,
+      "year": "二",
+      "semester": "1",
+      "type": "必修",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS4315",
+      "name": "毕业设计（论文）（计算机）",
+      "credits": 4.0,
+      "year": "四",
+      "semester": "2",
+      "type": "必修",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "NIS1336",
+      "name": "计算机编程实践",
+      "credits": 2.0,
+      "year": "一",
+      "semester": "3",
+      "type": "必修",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS2304",
+      "name": "计算机科学中的数学基础",
+      "credits": 3.0,
+      "year": "二",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS2305",
+      "name": "计算机系统结构（A类）",
+      "credits": 3.0,
+      "year": "二",
+      "semester": "1",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS2307",
+      "name": "计算机组成",
+      "credits": 2.0,
+      "year": "一",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS2308",
+      "name": "算法与复杂性",
+      "credits": 3.0,
+      "year": "二",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS2310",
+      "name": "现代操作系统",
+      "credits": 3.0,
+      "year": "二",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3309",
+      "name": "计算机伦理学",
+      "credits": 2.0,
+      "year": "三",
+      "semester": "1",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3301",
+      "name": "GPU计算及深度学习",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3316",
+      "name": "强化学习",
+      "credits": 2.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3321",
+      "name": "数据库技术",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "1",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3328",
+      "name": "云计算技术",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "1",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3346",
+      "name": "量子计算",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS4302",
+      "name": "并行与分布式程序设计",
+      "credits": 3.0,
+      "year": "四",
+      "semester": "1",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS4303",
+      "name": "大数据处理",
+      "credits": 3.0,
+      "year": "四",
+      "semester": "1",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS4308",
+      "name": "计算复杂性",
+      "credits": 3.0,
+      "year": "四",
+      "semester": "1",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS4313",
+      "name": "智能语音技术",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS4314",
+      "name": "自然语言处理",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "1",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "ICE3307",
+      "name": "无线通信原理与移动网络",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS2301",
+      "name": "编译原理（A类）",
+      "credits": 3.0,
+      "year": "二",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3308",
+      "name": "机器学习",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "1",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3310",
+      "name": "计算机图形学",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "1",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3311",
+      "name": "计算机网络（D类）",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "1",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3313",
+      "name": "计算理论",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "1",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3314",
+      "name": "密码学与信息安全基础",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "1",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3312",
+      "name": "计算机系统安全",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3319",
+      "name": "数据科学基础",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3320",
+      "name": "数据可视化与可视分析",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3322",
+      "name": "数据库原理",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3325",
+      "name": "网络安全技术",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3327",
+      "name": "虚拟现实与增强显示技术",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3331",
+      "name": "软件工程",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3340",
+      "name": "计算机视觉",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3341",
+      "name": "高等算法",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3342",
+      "name": "程序语言理论",
+      "credits": 3.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3347",
+      "name": "操作系统Linux内核实践",
+      "credits": 2.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3349",
+      "name": "智算无人系统实践",
+      "credits": 2.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3350",
+      "name": "智算数据中心网络实践",
+      "credits": 2.0,
+      "year": "三",
+      "semester": "2",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS3351",
+      "name": "智算云服务系统实践",
+      "credits": 2.0,
+      "year": "三",
+      "semester": "1",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    },
+    {
+      "id": "CS4319",
+      "name": "大模型应用实践",
+      "credits": 2.0,
+      "year": "四",
+      "semester": "1",
+      "type": "限选",
+      "source": "https://mentor.sjtu.edu.cn/jwc/plans/view/4E34A4CBEA26FFC1E065F8163EE1DCCC/?render=1"
+    }
+  ],
+  "notes": [
+    "CS2023报告2024年1月版；知识域17、知识单元162、CS Core合计270小时。",
+    "学时是课程指南的建议教学时间，不是交大学分；跨KA复用学时不重复求和。",
+    "四个导航分组和中文译名由项目整理，不是CS2023官方分组。",
+    "交大修业导师页面注明仅供参考，培养方案与毕业要求以学院正式要求为准。",
+    "KU课程关系为显式人工学习建议，仅据课程名称及主题关系，未核验课程大纲；未建立对应的KU为空，不从领域课程自动推断。"
+  ]
+}
